@@ -1,0 +1,64 @@
+body {
+    background-image: url(assets/art-artist-background-316466.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 5vw;
+    margin: auto;
+    color: blue;
+    text-shadow: 2px 3px paleturquoise;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.games, .designs {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   flex-basis: 20%;
+   justify-content: space-evenly;
+   
+}
+
+.designs {
+    align-self: flex-start;
+}
+
+.card{
+    font-size: 2vw;
+    padding: 3%;
+    margin: 2%;
+    align-self: flex-start;
+}
+
+.card:hover {
+    background-color: white;
+    
+}
+
+h2 {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline overline;
+    flex-wrap: wrap;
+    font-size: 3vw;
+    align-self: center;
+    text-shadow: -2px 2px paleturquoise;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    text-shadow: -2px 2px paleturquoise;
+    font-weight: bold;
+}
+
